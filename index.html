@@ -2,27 +2,33 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/png" href="./img/" >
+    <link rel="icon" type="image/png" href="./img/icon.png" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>to-do list °｡⋆</title>
-    <script defer src="index.js"></script>
+    <script src="index.js" type="module"></script>
+    <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
     <main>
         <div>
-            <form action="">
-                <input type="text" placeholder="Digite o item aqui">
-                <button>Salvar</button>
-            </form>
-            
+            <form>
+                <input
+                  class="input-item"
+                  id="input-item"
+                  type="text"
+                  placeholder="write here"/>
+                <button class="button-item" id="adicionar-item" type="button">save</button>
+              </form> 
         </div>
-        <div>
-            <ul>
-                <li>
 
-                </li>
+        <div class="container-lista">
+            <h2>my to-do list °｡⋆</h2>
+            <hr />
+    
+            <ul id="lista-de-compras">
+             <p class="mensagem-lista-vazia">there are no items yet</p>
             </ul>
-        </div>
+          </div>
     </main>
 </body>
 </html>
