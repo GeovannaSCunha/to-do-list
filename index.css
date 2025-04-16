@@ -3,3 +3,41 @@
     margin: 0;
     padding: 0;
 }
+body {
+    background-color: #ffccde;
+}
+#container {
+    text-align: center;
+    align-items: center;
+    padding-top: 8%;
+}
+
+#container h2 {
+    padding-bottom: 1%;
+    font-size: 31px;
+}
+
+#formulario {
+    padding-bottom: 2%;
+}
+
+#input-item {
+    padding: 2px;
+}
+
+#adicionar-item {
+    border: none;
+    padding: 4.5px;
+    background-color: crimson;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+#adicionar-item:hover {
+    opacity: 0.83;  
+}
+
+.mensagem-lista-vazia {
+    font-weight: bold;
+}
