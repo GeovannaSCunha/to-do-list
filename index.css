@@ -25,7 +25,7 @@ body {
     padding: 2px;
 }
 
-#adicionar-item {
+.button-item {
     border: none;
     padding: 4.5px;
     background-color: crimson;
@@ -34,7 +34,7 @@ body {
     cursor: pointer;
 }
 
-#adicionar-item:hover {
+.button-item:hover {
     opacity: 0.83;  
 }
 
